@@ -1,0 +1,85 @@
+:root{
+    --background:#222629;
+    --lightgreen:#86c232;
+    --drakgreen:#359100;
+    --gray:#6b6e70;
+    --drakgray:#474b4f;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(34,38,41,0.4), rgba(34,38,41,0.4)), url(./nikolay-tarashchenko-u76CN5rZeOU-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:fill;
+    background-attachment: fixed;
+    font-family: 'Poppins',sans-serif;
+}
+#title{
+    text-align: center;
+    color: #fff;
+    margin: 50px 0 20px 0;
+    font-size: 3.6em;
+}
+#description{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 1.1em;
+}
+label{
+    color: #fff;
+    font-size: 18px;
+}
+
+#survey-form{
+    margin: 0 auto 50px;
+    background-image:linear-gradient(rgba(34,38,41,0.8), rgba(34,38,41,0.8));
+    border-radius: 5px;
+    width:55%;
+    padding: 40px 40px;
+}
+#survey-form .input-wide{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 8px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 8px;
+    outline: none;
+}
+#submit{
+    color: #fff;
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    border:none;
+    font-weight: bold;
+    background-color: var(--lightgreen);
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: var(--drakgreen);
+    transition: 0.5s;
+}
+input[type="radio"]{
+    width: 17px;
+    height: 17px;
+    margin-bottom: 8px;
+}
+input[type="checkbox"]{
+    margin-bottom: 8px;
+    height: 17px;
+    width: 17px;
+}
